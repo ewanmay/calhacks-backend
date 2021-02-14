@@ -17,7 +17,7 @@ const SteamApi = require('./SteamApi')
 const db = new Database()
 const lobbyList = new LobbyList(io, db)
 const userSocketList: User[] = []
-const steamApi = new SteamApi('392CEE1C5F48960F3C60A8174B2FBE7E')
+const steamApi = new SteamApi('BB61FCE07EA5B4534B891755A6CC98EE')
 
 const removeUserFromLobbies = (socket) => {
   const index = userSocketList.findIndex(
